@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 1% 3%;
+    overflow-x: hidden;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-cover {
+    margin-top: 10px;
+    position: relative;
+}
+
+.main-img {
+    width: 100%;
+    z-index: 1;
+}
+
+.catch-img {
+    position: absolute;
+    z-index: 3;
+    width: 25%;
+    right: 100px;
+    top: 50px;
+}
